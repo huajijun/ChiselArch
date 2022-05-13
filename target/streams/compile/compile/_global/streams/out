@@ -1,33 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:33:45: not found: type PeekPokeTester[0m[0J
-[0m[[0m[31merror[0m] [0m[0mclass BrCondTest(item:BrCondSimple) extends PeekPokeTester(item) {[0m[0J
-[0m[[0m[31merror[0m] [0m[0m                                            ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:33:60: no arguments allowed for nullary constructor Object: ()Object[0m[0J
-[0m[[0m[31merror[0m] [0m[0mclass BrCondTest(item:BrCondSimple) extends PeekPokeTester(item) {[0m[0J
-[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:37:13: not found: value rnd[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		val rs1 = rnd.nextInt(maxValue)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		          ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:38:13: not found: value rnd[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		val rs2 = rnd.nextInt(maxValue)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		          ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:39:17: not found: value rnd[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		val br_type = rnd.nextInt(maxValueOfBr)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		              ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:40:3: not found: value poke[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		poke(item.io.rs1,rs1)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:41:3: not found: value poke[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		poke(item.io.rs2,rs2)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:42:3: not found: value poke[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		poke(item.io.br_type,br_type)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:43:3: not found: value step[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		step(1)[0m[0J
-[0m[[0m[31merror[0m] [0m[0m		^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/BrCond.scala:50:10: type mismatch;[0m[0J
-[0m[[0m[31merror[0m] [0m[0m found   : BrCondTest[0m[0J
-[0m[[0m[31merror[0m] [0m[0m required: chisel3.iotesters.PeekPokeTester[BrCondSimple][0m[0J
-[0m[[0m[31merror[0m] [0m[0m				c => new BrCondTest(c)	[0m[0J
-[0m[[0m[31merror[0m] [0m[0m				     ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0m10 errors found[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/Main.scala:6:13: ';' expected but identifier found.[0m[0J
+[0m[[0m[31merror[0m] [0m[0mobject Main extend App {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m            ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mone error found[0m[0J
