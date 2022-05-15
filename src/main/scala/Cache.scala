@@ -20,6 +20,8 @@ class CacheIO(addrWidth: Int, dataWidth: Int) extends Bundle {
 	val resp  = Valid(new CacheResp(dataWidth))
 }
 
+case class CacheConfig(nWays: Int, nSets: Int, blockBytes: Int)
+
 class CacheModuleIO(nastiParams: NastiBundleParameters, addrWidth: Int, dataWidth: Int) extends Bundle {
 	val cpu = new CacheIO(addrWidth, dataWidth)  // 这个接口是跟CPU进行数据交换
 	val nasti = new NastiBundle(nastiParams)  //这个接口是跟MEM 进行数据交换

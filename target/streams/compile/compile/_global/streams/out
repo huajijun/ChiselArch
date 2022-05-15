@@ -1,4 +1,69 @@
-[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/Main.scala:6:13: ';' expected but identifier found.[0m[0J
-[0m[[0m[31merror[0m] [0m[0mobject Main extend App {[0m[0J
-[0m[[0m[31merror[0m] [0m[0m            ^[0m[0J
-[0m[[0m[31merror[0m] [0m[0mone error found[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/Cache.scala:4:8: not found: object junctions[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport junctions._[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/Config.scala:1:8: not found: object junctions[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport junctions.NastiBundleParameters[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/Core.scala:26:25: not found: type Datapath[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val dpath = Module(new Datapath(conf))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/TIle.scala:12:29: not found: type Tile[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	def apply(config: Config): Tile = new Tile(config.core, config.nasti, config.cache)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                           ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/TIle.scala:12:40: not found: type Tile[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	def apply(config: Config): Tile = new Tile(config.core, config.nasti, config.cache)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                      ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/TIle.scala:12:52: value core is not a member of Config[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	def apply(config: Config): Tile = new Tile(config.core, config.nasti, config.cache)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                                  ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/TIle.scala:12:65: value nasti is not a member of Config[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	def apply(config: Config): Tile = new Tile(config.core, config.nasti, config.cache)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                                               ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/TIle.scala:12:79: value cache is not a member of Config[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	def apply(config: Config): Tile = new Tile(config.core, config.nasti, config.cache)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                                                                             ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:95:16: not found: value params[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val id = UInt(params.idBits.W)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	              ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:96:18: not found: value params[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val data = UInt(params.dataBits.W)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:119:72: not found: type BUndle[0m[0J
+[0m[[0m[31merror[0m] [0m[0mclass NastiWriteResponseBundle(params: NastiBundleParameters)  extends BUndle {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                                                                       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:126:11: inferred type arguments [NastiWriteResponseBundle] do not conform to method apply's type parameter bounds [T <: chisel3.Data][0m[0J
+[0m[[0m[31merror[0m] [0m[0m		val b = Wire(new NastiWriteResponseBundle(params))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:126:16: type mismatch;[0m[0J
+[0m[[0m[31merror[0m] [0m[0m found   : NastiWriteResponseBundle[0m[0J
+[0m[[0m[31merror[0m] [0m[0m required: T[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		val b = Wire(new NastiWriteResponseBundle(params))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		             ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:127:5: value id is not a member of type parameter T[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		b.id := id[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		  ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:127:11: not found: value id[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		b.id := id[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		        ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:128:5: value resp is not a member of type parameter T[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		b.resp := resp[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		  ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:128:13: not found: value resp[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		b.resp := resp[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		          ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:129:3: type mismatch;[0m[0J
+[0m[[0m[31merror[0m] [0m[0m found   : T[0m[0J
+[0m[[0m[31merror[0m] [0m[0m required: NastiWriteResponseBundle[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		b[0m[0J
+[0m[[0m[31merror[0m] [0m[0m		^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:134:21: not enough arguments for constructor NastiAddressBundle: (params: NastiBundleParameters)NastiAddressBundle.[0m[0J
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter params.[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val aw = Decoupled(new NastiAddressBundle) // bits output[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                   ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m/work/ChiselArch/src/main/scala/junctions.scala:136:18: overloaded method value apply with alternatives:[0m[0J
+[0m[[0m[31merror[0m] [0m[0m  [T <: chisel3.Data](irr: chisel3.util.IrrevocableIO[T])chisel3.util.DecoupledIO[T] <and>[0m[0J
+[0m[[0m[31merror[0m] [0m[0m  [T <: chisel3.Data](gen: T)chisel3.util.DecoupledIO[T][0m[0J
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (NastiWriteResponseBundle)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	val b = Flipped(Decoupled(new NastiWriteResponseBundle(params)))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	                ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m20 errors found[0m[0J

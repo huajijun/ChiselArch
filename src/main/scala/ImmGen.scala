@@ -5,7 +5,7 @@ import Control._
 class ImmGenIO(xlen: Int) extends Bundle {
 	val inst = Input(UInt(xlen.W))
 	val sel  = Input(UInt(3.W))
-	val out  = Input(UInt(xlen.W))
+	val out  = Output(UInt(xlen.W))
 }
 
 
